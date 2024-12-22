@@ -1,0 +1,22 @@
+{
+  "projectName": "laravel-email-database-log",
+  "projectOwner": "Flexadmin",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Flexadmin",
+      "name": "Flexadmin",
+      "profile": "https://github.com/Flexadminio",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

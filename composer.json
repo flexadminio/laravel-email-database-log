@@ -1,0 +1,46 @@
+{
+    "name": "flexadmin/laravel-email-database-log",
+    "description": "A database logger for all outgoing emails sent by your Laravel application.",
+    "keywords": ["laravel", "markdown", "mail"],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "flexadminio",
+            "email": "support@flexadmin.io"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2|^8.1|^8.2",
+        "illuminate/support": "^9 || ^10 || ^11",
+        "doctrine/dbal": "^3.6|^4",
+        "nesbot/carbon": "^2.71.0 || ^3.0.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0.0",
+        "phpunit/phpunit": "^10.0.7",
+        "suin/phpcs-psr4-sniff": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flexadmin\\LaravelEmailDatabaseLog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Flexadmin\\LaravelEmailDatabaseLog\\LaravelEmailDatabaseLogServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
