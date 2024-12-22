@@ -19,7 +19,7 @@ A database logger for all outgoing emails sent by your Laravel application.
 1. From your projects root folder in terminal run:
 
     ```bash
-        composer require Flexadmin/laravel-email-database-log
+        composer require flexadmin/laravel-email-database-log
     ```
 
 2. Register the package
